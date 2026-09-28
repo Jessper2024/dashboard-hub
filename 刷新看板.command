@@ -19,8 +19,8 @@ git -c user.name="Jessper2024" -c user.email="jessper@users.noreply.github.com" 
 git -c http.proxy= -c https.proxy= -c http.version=HTTP/1.1 push origin main 2>&1 | tail -1
 
 echo ""
-echo "═══ 打开看板 ═══"
-open "$BOARD_DIR/index.html"
+echo "═══ 打开线上看板 ═══"
+open "https://jessper2024.github.io/dashboard-hub/"
 
 echo ""
-echo "✓ 刷新完成"
+echo "✓ 刷新完成（已打开线上看板）"
